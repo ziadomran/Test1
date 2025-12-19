@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    
+    <div class="page-layout">
+        <div class="title">
+            <img src="./img/background.jpeg" alt="autumn leaves on the ground, man lying on them" height=800>
+            <div class="over-image"> Autumn 2025-2026</div>
+        </div>
+
+        <div class="right-side">
+            <h2>The Queen of Autumn is here to bless 2026</h2>
+            <h3>Join us to be part of our cult</h3>
+
+            <form action="#" method="post">
+                <div class="account">
+                    <h4>Sign Up</h4>
+                        <div class="name-row">
+                            <div class="field">
+                                <label for="firstname">First Name *</label>
+                                <input type="text" name="first-name" id="firstname" required>
+                            </div>
+                            <div class="field">
+                                <label for="lastname">Last Name *</label>
+                                <input type="text" name="last-name" id="lastname" required>
+                            </div>
+                        </div>
+                        <div class="email-row">
+                            <div class="field">
+                                <label for="email">Email *</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        
+
+                        <div class="field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        </div>
+
+                        <div class="password-row">
+                            <div class="field">
+                                <label for="password">Password *</label>
+                                <input type="password" name="password" id="password" required minlength="8">
+                            </div>
+                            <div class="field">
+                                <label for="cpassword">Confirm Password *</label>
+                                <input type="password" name="cpassword" id="cpassword" required minlength="8">
+                            </div>
+                        </div>
+                </div>
+                <button id="create_account" type="submit">Create Account</button>
+
+            </form>
+            <div class="login"><h3>Already have an account? <a href="./login.html" target="_blank">Login</a></h3></div>
+        </div>
+
+        
+    </div>
 </body>
+
 </html>
